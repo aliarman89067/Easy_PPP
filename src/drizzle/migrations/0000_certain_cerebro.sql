@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS "product_customizations" (
 	"id" uuid PRIMARY KEY DEFAULT gen_random_uuid() NOT NULL,
 	"class_prefix" text,
 	"product_id" uuid NOT NULL,
-	"location_message" text DEFAULT 'Hey, It''s look like you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>"{coupon}"</b> to get <b>{discount}%</b> off.' NOT NULL,
+	"location_message" text DEFAULT 'Hey, It looks like you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>"{coupon}"</b> to get <b>{discount}%</b> off.' NOT NULL,
 	"background_color" text DEFAULT 'hsl(193, 82%, 31%)' NOT NULL,
 	"text_color" text DEFAULT 'hsl(0, 0%, 100%)' NOT NULL,
 	"font_size" text DEFAULT '1rem' NOT NULL,

@@ -54,7 +54,7 @@ export const productCustomizationTable = pgTable("product_customizations", {
   locationMessage: text("location_message")
     .notNull()
     .default(
-      `Hey, It look likes you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>"{coupon}"</b> to get <b>{discount}%</b> off.`
+      `Hey, It looks like you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>"{coupon}"</b> to get <b>{discount}%</b> off.`
     ),
   backgroundColor: text("background_color")
     .notNull()

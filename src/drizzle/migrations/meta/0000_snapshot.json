@@ -1,5 +1,5 @@
 {
-  "id": "97b4c3e1-aaa6-424c-8607-c07f64ed6222",
+  "id": "c6b8da4f-343c-450e-b081-ea90f4b87c7c",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
@@ -253,7 +253,7 @@
           "type": "text",
           "primaryKey": false,
           "notNull": true,
-          "default": "'Hey, It''s look like you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>\"{coupon}\"</b> to get <b>{discount}%</b> off.'"
+          "default": "'Hey, It looks like you are from <b>{country}</b>. We support parity purchasing Power, so if you need it, use code <b>\"{coupon}\"</b> to get <b>{discount}%</b> off.'"
         },
         "background_color": {
           "name": "background_color",
